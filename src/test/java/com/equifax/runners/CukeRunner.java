@@ -14,8 +14,8 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		
 		},
 					
-//		tags = "@test",
-		tags = "@api",
+		tags = "@test",
+//		tags = "@api",
 		features = "src/test/resources/com/equifax/features",
 		glue = "com/equifax/step_definitions"
 		,strict = true
